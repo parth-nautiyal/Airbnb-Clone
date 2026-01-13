@@ -33,11 +33,11 @@ section {
 .hero {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .hero--photo {
     max-width: 400px;
-    align-self: center;
 }
 
 .hero--header {
@@ -53,6 +53,7 @@ section {
     flex-wrap: nowrap;
     gap: 20px;
     overflow-x: auto;
+    justify-content: center;
 }
 
 .card {
